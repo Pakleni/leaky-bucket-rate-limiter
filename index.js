@@ -1,5 +1,9 @@
 
 module.exports = {
+	/**
+	 * Initialize the rate limiter
+	 * @param {import("ioredis").Redis} client
+	 */
     _init: function (client) {
         client.defineCommand("refillToken", {
             numberOfKeys: 2,

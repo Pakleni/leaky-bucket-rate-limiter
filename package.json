@@ -2,9 +2,12 @@
   "name": "leaky-bucket-rate-limiter",
   "version": "1.0.0",
   "description": "IORedis based leaky bucket rate limiter",
-  "main": "rateLimiter.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "ioredis": "^5.3.2"
   },
   "author": "pakleni",
   "license": "ISC"
