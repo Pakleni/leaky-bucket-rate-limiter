@@ -1,4 +1,4 @@
-# leaky-bucket-rate-limiter
+# ioredis-leaky-bucket
 
 Example usage:
 
@@ -9,7 +9,7 @@ const Redis = require("ioredis");
 const client = new Redis("...url...");
 
 // Initialize the rate limiter
-require("leaky-bucket-rate-limiter")._init(client)
+require("ioredis-leaky-bucket")._init(client)
 
 const MAX_TOKENS = 100;
 const REFILL_TIME = 3600000;

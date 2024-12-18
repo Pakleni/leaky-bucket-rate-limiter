@@ -1,5 +1,5 @@
 {
-  "name": "leaky-bucket-rate-limiter",
+  "name": "ioredis-leaky-bucket",
   "version": "1.0.0",
   "description": "IORedis based leaky bucket rate limiter",
   "main": "index.js",
